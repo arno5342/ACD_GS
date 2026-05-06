@@ -1,3 +1,5 @@
+
+
 ## Environment Setup
 
 ```bash
@@ -93,5 +95,15 @@ Please download the Deep Blending 360 dataset processed by colmap from [Deep Ble
 python train.py -s <path to the dataset> -m <path to the output path>
 ```
 
+## Evaluation
 
+Edit the eval.sh to your output path
+
+```bash
+bash eval.sh
+```
+
+## Pre-trained Models
+
+You can download part of our Pre-trained Models in /output
 
